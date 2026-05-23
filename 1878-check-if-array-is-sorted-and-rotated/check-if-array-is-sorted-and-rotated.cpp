@@ -21,6 +21,6 @@ public:
         }
         
         if(drop<=1) return true;
-        else return false;
+        return false;
     }
 };
