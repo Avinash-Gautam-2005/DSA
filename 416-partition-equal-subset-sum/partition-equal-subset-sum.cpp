@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int f(int i , int target , vector<int>& nums,vector<vector<int>>& dp){
+    bool f(int i , int target , vector<int>& nums,vector<vector<int>>& dp){
         if(target==0) return true;
         if(i==0) return (nums[0]==target);
         if(dp[i][target]!=-1) return dp[i][target];
