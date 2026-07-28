@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         
         int i=0;
-        int j=0;
+      
         int minlen=INT_MAX;
         int sum = 0;
         for(int j=0;j<n;j++){
@@ -17,6 +17,5 @@ public:
 
         }
         return minlen==INT_MAX?0:minlen;
-        
     }
 };
